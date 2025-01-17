@@ -23,12 +23,13 @@ public class Aula02TiposPrimitivos {
 
         char caractere = 65 ;
 
-
+        String nome = "kaike";
 
         System.out.println("A idade e " + idade + "anos");
         System.out.println(verdadeiro);
         System.out.println(caractere);
         System.out.println(salarioFloat);
         System.out.println(numeroGrande);
+        System.out.println("Oi meu nome é" + nome);
     }
 }
