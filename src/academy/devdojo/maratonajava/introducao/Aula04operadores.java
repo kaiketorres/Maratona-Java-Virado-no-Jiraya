@@ -22,10 +22,27 @@ public class Aula04operadores {
         System.out.println(subtracao);
         System.out.println(multiplicacao);
         System.out.println(divisao);
+
+        // %
+
+        int resto = 20 % 2;
+
+        System.out.println(resto);
+
+        // < > <= >= == !=
+
+        boolean isDezMaiorQueVinte = 10 > 20;
+        boolean isDezMenorQueVinte = 10 < 20;
+        boolean isDezIgualQueVinte = 10 == 20;
+        boolean isDezIgualQueDez= 10 == 10;
+        boolean isDezDiferenteQueDez = 10 != 10;
+
+
+        System.out.println("isDezMaiorQueVinte:" + isDezMaiorQueVinte);
+        System.out.println("isDezMenorQueVinte:" + isDezMenorQueVinte);
+        System.out.println("isDezIgualQueVinte:" + isDezIgualQueVinte);
+        System.out.println("isDezIgualQueDez:" + isDezIgualQueDez);
+        System.out.println("isDezDiferenteQueDez:" + isDezDiferenteQueDez);
     }
-
-
-
-
 
 }
