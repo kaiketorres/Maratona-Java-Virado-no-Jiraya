@@ -1,6 +1,7 @@
 package academy.devdojo.maratonajava.introducao;
 
-public class Aula08ArraysMultidimensionais {
+public class Aula08ArraysMultidimensionais01
+{
     public static void main(String[] args) {
         // 1,2,3,4,5 Meses
         // 31, 28, 31
