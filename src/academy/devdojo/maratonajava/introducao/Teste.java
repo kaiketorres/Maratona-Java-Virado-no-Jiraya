@@ -10,9 +10,11 @@ public class Teste {
         nomes[1] = "lucas";
         nomes[2] = "kaike";
 
+
         for (int i = 0; i < nomes.length; i++ ){
             System.out.println(nomes[i]);
         }
+
 
         for(String i :nomes){
             System.out.println(i);
