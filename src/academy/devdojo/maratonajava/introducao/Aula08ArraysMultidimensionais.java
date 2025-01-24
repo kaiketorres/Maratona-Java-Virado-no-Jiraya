@@ -23,5 +23,15 @@ public class Aula08ArraysMultidimensionais {
             }
 
         }
+
+        System.out.println("==========================");
+
+        for(int[] arrBase :dias){
+            for(int num: arrBase){
+                System.out.println(num);
+            }
+        }
+
+
     }
 }
