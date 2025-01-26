@@ -2,13 +2,18 @@ package academy.devdojo.maratonajava.javacore.Bintroducaometodosdominio.Aintrodu
 
 import academy.devdojo.maratonajava.javacore.Bintroducaometodosdominio.Aintroducaoclasses.dominio.Calculadora;
 
-public class CalculadoraTest02 {
+public class CalculadoraTest04 {
     public static void main(String[] args) {
 
         Calculadora calculadora = new Calculadora();
 
-        calculadora.multiplicarDoisNumeros(2, 3);
+        int num1 = 1;
+        int num2 = 2;
 
+        calculadora.alteraDoisNumeros(num1, num2);
+
+        System.out.println(num1);
+        System.out.println(num2);
 
     }
 }
