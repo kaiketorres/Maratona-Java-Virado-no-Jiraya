@@ -2,7 +2,7 @@ package academy.devdojo.maratonajava.javacore.Bintroducaometodosdominio.Aintrodu
 
 import academy.devdojo.maratonajava.javacore.Bintroducaometodosdominio.Aintroducaoclasses.dominio.Funcionario;
 
-public class funcionarios {
+public class Funcionarios {
 
     public static void main(String[] args) {
 
