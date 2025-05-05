@@ -7,6 +7,7 @@ public class Jogador {
     private String nome;
     private Time time;
 
+
     public void imprime(){
 
         System.out.println(this.nome);
